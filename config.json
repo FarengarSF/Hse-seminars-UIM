@@ -1,0 +1,21 @@
+{
+  "poll_interval_seconds": 300,
+  "digest_interval_minutes": 30,
+  "max_age_hours": 24,
+  "digest_size": 5,
+  "database": "data/news.sqlite3",
+  "sources": [
+    {
+      "name": "Google News — мир",
+      "url": "https://news.google.com/rss/headlines/section/topic/WORLD?hl=ru&gl=RU&ceid=RU:ru"
+    },
+    {
+      "name": "BBC Русская служба",
+      "url": "https://feeds.bbci.co.uk/russian/rss.xml"
+    },
+    {
+      "name": "DW на русском",
+      "url": "https://rss.dw.com/rdf/rss-ru-all"
+    }
+  ]
+}
